@@ -7,8 +7,8 @@ Built a contextual dataset, which takes the previous seven dialogues before Mich
 
 The trained model is then hosted on the Hugging Face. [Repo Link](https://huggingface.co/maniacGhost24/MichaelScott-bot-push-small), to test the bot you can even try talking to it in the Hosted API interface in the same repo.
 
-![API Chat Image]<./img/chat.png>
+![API Chat Image](./img/chat.png)
 
-This model is then hosted on a python web server using [Repl](repl.it) which keeps the bot alive even after you close the code link. The code for the server can also be found in the repo.
+This model is then hosted on a python web server using [Repl](https://replit.com/) which keeps the bot alive even after you close the code link. The code for the server can also be found in the repo.
 
 It is then simply converted into a bot on discord using discord dev tools and is always kept alive using the server.
